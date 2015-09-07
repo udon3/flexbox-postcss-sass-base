@@ -1,0 +1,31 @@
+/*--------- base.scss ------------*/
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+* {
+	position: relative;
+}
+
+body {
+	font-size: 62.5%;
+	background-color: #CDE9FF;
+}
+
+p, li {
+	font-size: 1.6em;
+}
+
+header,
+main,
+footer {
+	width: 90%;
+	margin: auto;
+}
+header {
+	text-align: center;
+}
